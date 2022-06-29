@@ -36,7 +36,7 @@ getent group sudo
 
 ```bash
 sudo apt-get install openssh-server
-sudo vi /etc/ssh/sshd_config
+sudo nano /etc/ssh/sshd_config
 ```
 
 `#Port 22` to `Port 4242` and
@@ -91,7 +91,7 @@ sudo ufw delete $NUMBER
 ```bash
 sudo touch /etc/sudoers.d/sudoconfig
 sudo mkdir /var/log/sudo
-sudo vi /etc/sudoers.d/sudoconfig
+sudo nano /etc/sudoers.d/sudoconfig
 ```
 
 `# /etc/sudoers.d/sudoconfig`
@@ -108,7 +108,7 @@ Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin
 ## 5 - Setting up a strong password policy
 
 ```bash
-sudo vi /etc/login.defs
+sudo nano /etc/login.defs
 ```
 
 ```
@@ -120,7 +120,7 @@ PASS_MIN_DAYS    0     -> PASS_MIN_DAYS    2
 
 ```bash
 sudo apt-get install libpam-pwquality
-sudo vi /etc/pam.d/common-password
+sudo nano /etc/pam.d/common-password
 ```
 
 Add to the end of the `password requisite pam_pwqiality.so retry=3` line:
