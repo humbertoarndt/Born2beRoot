@@ -43,7 +43,7 @@ Run the virtual machine and follow the OS install wizard.
 
 ### Partition setup
 
-1.  Partition method: **Use entire disk and configure LVM**
+1.  Partition method: **Use entire disk and configure LVM (Encryoted)**
 2.  Select disk
 3.  Select partition **home**
 4.  Yes
