@@ -59,7 +59,7 @@ Run the virtual machine and follow the OS install wizard.
 ### Final Steps
 
 - Scan another CD or DVD? **NO**
-- Debian archive mirror country: **Belgium**
+- Debian archive mirror country: **Brazil**
 - `deb.debian.org`
 - Leave proxy info field empty.
 - Participate in the package usage survey? **NO**
