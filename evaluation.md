@@ -532,7 +532,6 @@ sudo crontab -e
 Remove following line/s
 
 ```
-@reboot /scripts/monitoring.sh
 */1 * * * * /scripts/monitoring.sh
 ```
 
