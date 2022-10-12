@@ -523,10 +523,18 @@ Add following line
 
 ### Make the script stop running after reboot without modifying it
 
-Remove the scheduling line on the crontab
+Stop the crontab
 
 ```bash
-sudo crontab -e
+sudo systemctl stop cron
+sudo systemctl disable cron
+```
+
+Start the crontab
+
+```bash
+sudo systemctl start cron
+sudo systemctl enable cron
 ```
 
 Remove following line/s
